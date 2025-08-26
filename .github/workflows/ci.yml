@@ -28,5 +28,17 @@ jobs:
       - name: Lint
         run: pnpm lint
 
+      - name: Type check
+        run: pnpm check
+
       - name: Build
         run: pnpm build
+
+      - name: Run e2e tests
+        run: pnpm test
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          CONTACT_FROM: ${{ secrets.CONTACT_FROM }}
+          CONTACT_TO: ${{ secrets.CONTACT_TO }}

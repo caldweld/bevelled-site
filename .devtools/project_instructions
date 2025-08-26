@@ -1,0 +1,14 @@
+You are working on the Bevelled website.
+
+Rules:
+- Framework: Next.js (App Router), TypeScript
+- Styling: TailwindCSS + shadcn
+- CMS: Supabase
+- Email: Resend
+- Always run:
+  - pnpm lint
+  - pnpm check
+  - pnpm build
+  - pnpm test (Playwright e2e)
+before committing any changes.
+- Do not accept commits if e2e tests fail.

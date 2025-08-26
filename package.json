@@ -9,9 +9,8 @@
     "lint": "next lint --max-warnings=0",
     "check": "tsc --noEmit",
     "test": "playwright test",
-    "test:ui": "playwright test --ui",
     "test:headed": "playwright test --headed",
-    "postinstall": "next telemetry disable || true"
+    "postinstall": "next telemetry disable || true && playwright install --with-deps"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.56.0",
@@ -23,7 +22,7 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@playwright/test": "^1.55.0",
+    "@playwright/test": "^1.48.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.9",
     "@tailwindcss/typography": "^0.5.15",
