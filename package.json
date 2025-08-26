@@ -10,7 +10,7 @@
     "check": "tsc --noEmit",
     "test": "playwright test",
     "test:headed": "playwright test --headed",
-    "postinstall": "next telemetry disable || true && playwright install --with-deps"
+    "postinstall": "next telemetry disable || true"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.56.0",
