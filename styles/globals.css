@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base tokens */
+:root {
+  --bg: #ffffff;
+  --fg: #0E0E10;
+}
+
+.dark {
+  --bg: #0E0E10;
+  --fg: #F5F2EB;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+/* Reusable classes */
+.container-narrow {
+  @apply container max-w-4xl;
+}
+
+.card {
+  @apply rounded-2xl shadow-soft bg-white dark:bg-neutral-900 border border-neutral-200/60 dark:border-neutral-800;
+}

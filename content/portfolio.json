@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Tasmanian Oak Dining Table",
+    "slug": "tasmanian-oak-dining-table",
+    "cover": "/images/sample1.jpg",
+    "summary": "Solid Tas Oak with natural edge detail and hardwax oil finish.",
+    "images": [
+      "/images/sample1.jpg",
+      "/images/sample2.jpg"
+    ]
+  },
+  {
+    "title": "Blackbutt Bookshelves",
+    "slug": "blackbutt-bookshelves",
+    "cover": "/images/sample3.jpg",
+    "summary": "Modular shelves in Blackbutt with concealed fasteners.",
+    "images": [
+      "/images/sample3.jpg",
+      "/images/sample4.jpg"
+    ]
+  }
+]
