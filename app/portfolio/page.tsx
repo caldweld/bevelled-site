@@ -33,7 +33,7 @@ export default function PortfolioPage() {
               <h2 className="text-xl font-semibold">{item.title}</h2>
               <p className="text-neutral-600 dark:text-neutral-400">{item.summary}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-                {item.images.map((src, i) => (
+                {item.images.map((src: string, i: number) => (
                   <div className="relative aspect-[4/3]" key={i}>
                     <Image src={src} alt={`${item.title} ${i+1}`} fill className="object-cover rounded-xl" />
                   </div>
