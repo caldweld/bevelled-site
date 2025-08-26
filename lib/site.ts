@@ -4,6 +4,6 @@ export const site = {
   description: 'Custom furniture and fit-outs in Australian hardwoods. Handcrafted by Bevelled.',
   social: {
     instagram: 'https://instagram.com/bvelled',
-    email: 'hello@bevelled.com.au'
+    email: 'sales@bevelled.com.au'
   }
 }

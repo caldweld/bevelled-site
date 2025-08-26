@@ -8,6 +8,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'cdn.jsdelivr.net' },
     ],
   },
-};
+}
 
-module.exports = nextConfig;
+export default nextConfig
+
